@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center alignment */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px; /* Space between heading and tables */
+    font-size: 24px;
+    color: #333;
+}
+
+/* Tables container styling */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the two tables */
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+}
+
+sup {
+    font-weight: lighter;
+}
+
+/* Category-based colors */
+.category1 { background-color: orange; }
+.category2 { background-color: rgb(97, 194, 232); }
+.category3 { background-color: rgb(208, 75, 181); }
+.category4 { background-color: rgb(104, 34, 210); }
+.category5 { background-color: rgb(141, 40, 40); }
+.category6 { background-color: rgb(209, 119, 119); }
+.category7 { background-color: rgb(169, 136, 30); }
+.category8 { background-color: yellow; }
+.category9 { background-color: green; }
+.category10 { background-color: pink; }
+.category11 { background-color: rgb(247, 247, 241); }
